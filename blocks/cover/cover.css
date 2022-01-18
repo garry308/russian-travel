@@ -1,0 +1,24 @@
+.cover {
+  margin: 0 auto;
+  max-width: 1184px;
+  width: 100%;
+  background-image: url(/images/cover-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.cover::before {
+  background-color: #2A2C2F;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}

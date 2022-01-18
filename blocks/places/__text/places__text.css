@@ -1,0 +1,19 @@
+.places__text {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media (min-width: 288px) and (max-width: 427px) {
+  .places__text {
+    max-width: calc(100% - 32px);
+    margin: 0 auto;
+    gap: 25px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 800px) {
+  .places__text {
+    gap: 25px;
+  }
+}

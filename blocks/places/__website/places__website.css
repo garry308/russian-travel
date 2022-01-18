@@ -1,0 +1,10 @@
+.places__website {
+  align-self: end;
+}
+
+@media (min-width: 288px) and (max-width: 427px) {
+  .places__website {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
