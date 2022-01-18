@@ -1,9 +1,14 @@
 .header {
   display: flex;
-  max-width: calc(100% - 96px);
   margin: 28px auto 0;
   justify-content: start;
   align-items: flex-start;
+}
+
+@media (min-width:901px) and (max-width: 1184px) {
+  .header {
+    max-width: calc(100% - 96px);
+  }
 }
 
 @media (min-width: 400px) and (max-width: 900px) {

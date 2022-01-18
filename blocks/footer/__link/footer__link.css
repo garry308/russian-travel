@@ -1,4 +1,5 @@
 .footer__link {
+  display: block;
   color: #FFFFFF;
   text-decoration: none;
   font-style: normal;
